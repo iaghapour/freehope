@@ -17,4 +17,3 @@ https://t.me/iaghapour
 پیج اینستاگرام:
 https://www.instagram.com/iaghapour.yt
 
-از قالب و طرح کپی نکنید

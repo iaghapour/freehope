@@ -14,9 +14,6 @@ https://www.youtube.com/@iAghapour
 کانال تلگرام:
 https://t.me/iaghapour
 
-گروه تلگرامی حل مشکلات:
-https://t.me/iaghapour_group
-
 پیج اینستاگرام:
 https://www.instagram.com/iaghapour.yt
 

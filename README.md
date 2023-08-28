@@ -14,6 +14,5 @@ https://www.youtube.com/@iAghapour
 کانال تلگرام:
 https://t.me/iaghapour
 
-پیج اینستاگرام:
-https://www.instagram.com/iaghapour.yt
-
+صفحه توییتر X:
+https://twitter.com/iaghapour

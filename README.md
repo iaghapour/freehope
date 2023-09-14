@@ -2,7 +2,6 @@
 https://iaghapour.github.io/freehope
 
 
-### لینک شبکه های اجتماعی:
 
 
 ## کانال یوتیوب:

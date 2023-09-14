@@ -2,8 +2,6 @@
 https://iaghapour.github.io/freehope
 
 
-
-
 ## کانال یوتیوب:
 
 https://www.youtube.com/@iAghapour

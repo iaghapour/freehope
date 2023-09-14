@@ -10,7 +10,7 @@ https://www.youtube.com/@iAghapour
 
 https://t.me/iaghapour
 
-## صفحه توییتر X:🔻
+## صفحه توییتر:🔻
 
 https://twitter.com/iaghapour
 

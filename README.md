@@ -5,6 +5,8 @@ https://iaghapour.github.io/freehope
 <br />
 کانال یوتیوب [@iAghapour](https://www.youtube.com/@iAghapour)
 <br />
+My favorite search engine is [Duck Duck Go](https://duckduckgo.com).
+
 ## کانال تلگرام:
 <br />
 https://t.me/iaghapour

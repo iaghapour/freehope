@@ -5,6 +5,10 @@
   direction: rtl;
 }
 
+body {
+  position: relative;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -24,15 +28,15 @@
 .link {
   margin: 0;
   margin-bottom: 30px;
-  max-width: 1200px;
+  max-width: 1000px;
 
 }
 
 h1 {
-  color: #02f400;
+  color: #fff;
   margin: 0;
   margin-bottom: 20px;
-  font-size: 30px;
+  font-size: 28px;
   text-align: center;
   line-height: 1.6;
   display: flex;
@@ -41,11 +45,18 @@ h1 {
 }
 
 h1 a {
-  color: #ffffff;
-  font-size: 30px;
+  color: #14b451;
+  font-size: 28px;
   line-height: 1.6;
   margin: 0 6px 0 10px;
   display: contents;
+}
+
+h5 {
+  color: #14b451;
+  margin: 0;
+  margin: 50px 0 30px 0;
+  font-size: 20px;
 }
 
 h6 {
@@ -86,6 +97,25 @@ a:hover {
   text-decoration: underline;
 }
 
+.social {
+  margin: unset;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.social a {
+  display: inline-block;
+  margin-bottom: 0;
+  margin-left: 20px;
+  font-size: 18px;
+  color: #14b451;
+}
+
+.copyright {
+  position: absolute;
+  bottom: 0px;
+  left: 20px;
+}
 
 @media screen and (max-width: 991px) {
   .container {
@@ -105,5 +135,11 @@ a:hover {
 
   a {
     font-size: 18px;
+  }
+
+  .social {
+    margin: unset;
+    margin-top: 10px;
+    margin-bottom: 30px;
   }
 }

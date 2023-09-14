@@ -3,10 +3,9 @@ https://iaghapour.github.io/freehope
 <br />
 ### لینک شبکه های اجتماعی:
 <br />
-کانال یوتیوب [@iAghapour](https://www.youtube.com/@iAghapour)
-<br />
-My favorite search engine is [Duck Duck Go](https://duckduckgo.com).
+[Link text](https://website-name.com)
 
+<br />
 ## کانال تلگرام:
 <br />
 https://t.me/iaghapour

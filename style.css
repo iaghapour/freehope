@@ -115,6 +115,10 @@ a:hover {
   position: absolute;
   bottom: 0px;
   left: 20px;
+  direction: ltr;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: unset;
 }
 
 @media screen and (max-width: 991px) {

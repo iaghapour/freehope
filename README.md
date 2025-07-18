@@ -20,8 +20,6 @@ https://twitter.com/iaghapour
 <br />
 
 ## حمایت مالی (Donate) به صورت ریالی و رمز ارز :) 
-* https://hamibash.com/iAghapour
-
 * Tron:
 TCKh8yp3ERWXK5YkfFPEkrcxedUeKiTd5w
 

@@ -1,5 +1,5 @@
 # نقشه راه دسترسی به اینترنت آزاد:🔽
-https://iaghapour.github.io/freehope
+🔗 https://iaghapour.github.io/freehope
 
 
 ## کانال یوتیوب:🔻
@@ -15,7 +15,7 @@ https://t.me/iaghapour
 https://twitter.com/iaghapour
 
 
-#### در حد توان اشتراک گذاری کنید و به دوستان خودتون کمک کنید
+#### در حد توان اشتراک گذاری کنید و به دوستان خودتون کمک کنید. راستی ستاره دادن به پروژه رو فراموش نکنید :)
 
 <br />
 

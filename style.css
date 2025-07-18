@@ -1,149 +1,256 @@
 * {
   box-sizing: border-box;
   font-family: Vazirmatn, sans-serif;
-  margin: auto;
+  margin: 0;
+  padding: 0;
   direction: rtl;
 }
 
 body {
   position: relative;
+  background-color: #242628;
+    background-position: center;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-image: url(./assets/world.svg);
+    background-repeat: no-repeat;
 }
 
 .container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 40px 200px 20px 20px;
   width: 100%;
+  max-width: 1200px;
   margin: auto;
-  background-color: #242628;
-  background-image: url(./assets/world.svg);
-  background-repeat: no-repeat;
-  background-position-x: center;
-  background-position-y: 170px;
-  background-origin: padding-box;
-  background-attachment: fixed;
-}
-
-.link {
-  margin: 0;
-  margin-bottom: 30px;
-  max-width: 1000px;
-
+  padding: 40px 20px;
 }
 
 h1 {
   color: #fff;
-  margin: 0;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   font-size: 28px;
   text-align: center;
   line-height: 1.6;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
 }
 
 h1 a {
   color: #14b451;
   font-size: 28px;
   line-height: 1.6;
-  margin: 0 6px 0 10px;
-  display: contents;
-}
-
-h5 {
-  color: #14b451;
-  margin: 0;
-  margin: 50px 0 30px 0;
-  font-size: 20px;
-}
-
-h6 {
-  color: #ff9e40;
-  margin: 0;
-  margin: 50px 0 30px 0;
-  font-size: 20px;
-}
-
-.line {
-  color: #d0d0d0;
-  margin: 50px 0 30px 0;
-  font-size: 20px;
-  overflow: hidden;
-}
-
-a {
-  color: #d0d0d0;
-  font-size: 22px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 36px;
-  margin-bottom: 20px;
   text-decoration: none;
-  display: block;
-  transition: 0.5s;
+  transition: color 0.3s;
 }
 
-span {
-  color: #bdbdbd;
-  margin-top: -15px;
-  display: block;
-  margin-bottom: 20px;
+h1 a:hover {
+  color: #2fdd71;
 }
 
-a:hover {
-  color: #007af4;
+.category-section {
+  margin-bottom: 50px;
+  background-color: rgba(20, 22, 24, 0.6);
+  padding: 25px 25px 32px 20px;
+  border-radius: 12px;
+  backdrop-filter: blur(5px);
+}
+
+.category-section h2 {
+  color: #ff9e40;
+  font-size: 24px;
+  margin-bottom: 10px;
+  border-bottom: 2px dashed #f3b457;
+  padding-bottom: 10px;
+}
+
+.category-section p {
+  color: #d0d0d0;
+  font-size: 18px;
+  line-height: 1.7;
+  margin-bottom: 25px;
+}
+
+.content-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 16px;
+  text-align: right;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.content-table thead tr {
+  background-color: #0a5d4b;
+  color: #ffffff;
+  text-align: right;
+  font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+  padding: 15px 18px;
+  border: 1px solid #3a3a3a;
+  color: #ebebeb;
+}
+
+.content-table tbody tr {
+  border-bottom: 1px solid #333;
+  background-color: #2c2f31;
+  transition: background-color 0.3s;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+  background-color: #343739;
+}
+
+.content-table tbody tr:hover {
+  background-color: #45494d;
+}
+
+.content-table td a {
+  color: #8ab4f8;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.content-table td a:hover {
+  color: #a2c3fa;
   text-decoration: underline;
 }
 
+.level-badge {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 15px;
+  font-size: 14px;
+  color: #fff;
+  font-weight: normal;
+  text-align: center;
+  min-width: 80px;
+}
+
+.level-beginner { background-color: #208738; } /* Green */
+.level-intermediate { background-color: #007bff; } /* Blue */
+.level-advanced { background-color: #dc3545; } /* Red */
+.level-all { background-color: #6c757d; } /* Gray */
+
 .social {
-  margin: unset;
-  margin-top: 30px;
+  text-align: center;
+  margin-top: 40px;
   margin-bottom: 20px;
 }
 
 .social a {
   display: inline-block;
-  margin-bottom: 0;
-  margin-left: 20px;
+  margin: 0 15px;
   font-size: 18px;
   color: #14b451;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.social a:hover {
+  color: #2fdd71;
 }
 
 .copyright {
-  position: absolute;
-  bottom: 0px;
-  left: 20px;
-  direction: ltr;
+  display: block;
+  text-align: center;
+  margin-top: 30px;
+  padding-bottom: 20px;
+  color: #888;
   font-size: 16px;
-  font-weight: normal;
-  line-height: unset;
+  text-decoration: none;
+  direction: ltr;
 }
 
 @media screen and (max-width: 991px) {
   .container {
+    padding: 20px 10px;
     background-size: contain;
-    background-position-y: center;
-    background-attachment: fixed;
-    padding: 20px;
+    background-position: center 50px;
   }
 
-  h1 {
+  h1, h1 a {
+    font-size: 22px;
+  }
+
+  .category-section h2 {
     font-size: 20px;
   }
 
-  h1 a {
-    font-size: 20px;
+  .category-section p {
+    font-size: 16px;
   }
 
-  a {
-    font-size: 18px;
+  .content-table th,
+  .content-table td {
+    padding: 10px 12px;
   }
+}
 
-  .social {
-    margin: unset;
-    margin-top: 10px;
-    margin-bottom: 30px;
-  }
+/* =========================================== */
+/* START OF RESPONSIVE (MOBILE) CHANGES        */
+/* =========================================== */
+
+@media screen and (max-width: 768px) {
+    .content-table thead {
+        display: none; /* Hide table headers on mobile */
+    }
+
+    .content-table, .content-table tbody, .content-table tr, .content-table td {
+        display: block;
+        width: 100%;
+    }
+
+    .content-table tr {
+        margin-bottom: 20px; /* Space between cards */
+        border: 1px solid #4a4a4a;
+        border-radius: 8px;
+        overflow: hidden; /* Ensure border-radius is respected */
+    }
+
+    .content-table td {
+        text-align: right;
+        position: relative;
+        /* Padding: top, right, bottom, left. Make space on the right for the label */
+        padding: 12px 25% 12px 15px;
+        border: none;
+        border-bottom: 1px solid #3a3a3a;
+    }
+
+    .content-table tr td:last-child {
+        border-bottom: none; /* Remove border for the last item in a card */
+    }
+
+    /* The label (e.g., "سطح:", "توضیحات:") */
+    .content-table td::before {
+        content: attr(data-label) ":"; /* Add a colon after the label */
+        position: absolute;
+        right: 15px; /* Position from the right */
+        width: 45%;
+        padding-left: 10px; /* Space between label and content */
+        font-weight: bold;
+        text-align: right; /* Align label text to the right */
+        color: #ff9e40; /* Orange color for the label */
+    }
+
+    /* Make the main title of the card more prominent */
+    .content-table td[data-label="موضوع"] {
+        font-size: 1.1em;
+        font-weight: bold;
+        color: #ffffff;
+        background-color: #3a3d3f;
+        /* Reset padding for the title row to be full-width */
+        padding-right: 15px;
+    }
+    
+    /* Remove the label for the main title to avoid repetition */
+    .content-table td[data-label="موضوع"]::before {
+        content: "";
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .content-table td {
+        padding: 12px 30% 12px 15px;
+    }
 }

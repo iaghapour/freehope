@@ -231,6 +231,7 @@ h1 a:hover {
         font-weight: bold;
         text-align: right; /* Align label text to the right */
         color: #ff9e40; /* Orange color for the label */
+        pointer-events: none;
     }
 
     /* Make the main title of the card more prominent */
